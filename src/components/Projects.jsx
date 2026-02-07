@@ -18,7 +18,7 @@ const Projects = () => {
                 initial={{opacity:0, y:50}}
                 whileInView={{opacity:1, y:0}}
                 transition={{duration: 0.9, ease: 'easeOut'}}
-                viewport={{once: false, amount:0.2}}
+                viewport={{once: false, amount:0.1}}
                 className='container mx-auto px-6'>
                         
                     <h2 className='text-3xl font-bold text-center mb-4'>My
@@ -37,7 +37,7 @@ const Projects = () => {
                     </div>
 
                     <div className='text-center mt-12 '>
-                        <a href="https://github.com/t-fahim?tab=repositories" target='_blank' className='inline-flex items-center px-6 py-3 border border-purple rounded-lg font-medium hover:bg-purple/20 transition duration-300'>
+                        <a href="https://github.com/t-fahim?tab=repositories" target="_blank" rel="noreferrer" className='inline-flex items-center px-6 py-3 border border-purple rounded-lg font-medium hover:bg-purple/20 transition duration-300'>
                             <span>View More Projects</span>
                             <FaArrowRight className='ml-2'/>
                         </a>

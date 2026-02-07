@@ -156,7 +156,7 @@ export const workData = [
     company: "Digital Solutions LLC",
     duration: "2018 - 2020",
     description:
-      "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.",
+      "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.kjhkdfl lkkljhdf kkajsdfh kihdfgiuajhg iourgjh iereufoier pioiuerhg oieweruwh  eeiruh ieuergh iweu",
     color: "pink"
   },
   {

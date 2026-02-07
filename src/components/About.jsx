@@ -25,7 +25,7 @@ const About = () => {
               initial={{opacity:0, y:50}}
               whileInView={{opacity:1, y:0}}
               transition={{duration: 0.9, ease: 'easeOut'}}
-              viewport={{once: false, amount:0.2}}
+              viewport={{once: false, amount:0.1}}
               className='md:w-1/2'>
                 <div className='rounded-2xl p-8'>
                   <h3 className='text-2xl font-semibold mb-6'>Education</h3>
@@ -37,7 +37,7 @@ const About = () => {
               initial={{opacity:0, y:50}}
               whileInView={{opacity:1, y:0}}
               transition={{duration: 0.9, ease: 'easeOut'}}
-              viewport={{once: false, amount:0.2}}
+              viewport={{once: false, amount:0.1}}
               className='md:w-1/2'>
                 <div className='rounded-2xl p-4'>
                   <h3 className='text-2xl font-semibold mb-6'>My Journey</h3>
