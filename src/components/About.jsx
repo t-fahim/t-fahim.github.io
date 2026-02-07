@@ -1,6 +1,7 @@
 import React from 'react'
-import { inertia, motion } from 'framer-motion'
-import { aboutInfo, assets } from '../assets/assets'
+// eslint-disable-next-line no-unused-vars
+import { motion } from 'framer-motion'
+import { aboutInfo } from '../assets/assets'
 
 
 const About = () => {
@@ -13,7 +14,7 @@ const About = () => {
         id='about'
         className='py-20 bg-dark-200'>
           {/* heading */}
-          <h2 className='text-3xl font-bold text-center mb-4'>About
+          <h2 className='text-3xl font-bold text-center mb-8'>About
             <span className='text-purple'> Me</span>
           </h2>
 
@@ -38,12 +39,12 @@ const About = () => {
               transition={{duration: 0.9, ease: 'easeOut'}}
               viewport={{once: false, amount:0.2}}
               className='md:w-1/2'>
-                <div className='rounded-2xl p-8'>
+                <div className='rounded-2xl p-4'>
                   <h3 className='text-2xl font-semibold mb-6'>My Journey</h3>
-                  <p className='text-gray-300 mb-6 text-justify'>
+                  <p className='text-gray-300 mb-6'>
                     I am an undergraduate Bioinformatics Engineering student with a deep interest in coding. My journey into technology began when I received my first laptop during COVID-19 period, which sparked my curiosity and love for programming & Linux OS. This passion led me to choose Bioinformatics Engineering, a challenging and innovative field that bridges technology and biology.
                   </p>
-                  <p className='text-gray-300 mb-6 text-justify'>
+                  <p className='text-gray-300 mb-6'>
                     When I'm not coding, you can find me exploring new technologies & bioinformatics tools, reading FOSS article, contributing to open-source projects, or sharing my knowledge & experience through blogs and tutorials. I believe in continuous learning and pushing the boundaries of what's possible.
                   </p>
                   

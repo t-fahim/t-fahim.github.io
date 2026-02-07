@@ -1,4 +1,4 @@
-import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot } from 'react-icons/fa';
+import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot, FaDna, FaBrain } from 'react-icons/fa';
 
 import profileImg from '../assets/profile.avif';
 import projectImg1 from '../assets/project1.avif';
@@ -39,28 +39,34 @@ export const aboutInfo = [
 
 export const skills = [
   {
-    title: 'Frontend Development',
-    icon: FaReact,
-    description: 'Building responsive and interactive user interfaces with modern frameworks.',
-    tags: ['React', 'Vue.js', 'Angular', 'TypeScript']
+    title: 'Bioinformatics Tool',
+    icon: FaDna,
+    description: 'Working with various bioinformatics tools and libraries to analyze biological data efficiently.',
+    tags: ['Python', 'R', 'Biopython', 'Pandas', 'NumPy', 'Matplotlib']
   },
   {
     title: 'Backend Development',
     icon: FaServer,
     description: 'Creating robust server-side applications and RESTful APIs.',
-    tags: ['Node.js', 'Express', 'Django', 'Laravel']
+    tags: ['Django', 'Server']
+  },
+  {
+  title: 'AI & ML Tool',
+  icon: FaBrain,
+  description: 'Building AI and ML models for data analysis, prediction, and automation.',
+  tags: ['TensorFlow', 'PyTorch', 'Scikit-learn', 'Pandas', 'NumPy', 'Seaborn']
   },
   {
     title: 'Database Management',
     icon: FaDatabase,
     description: 'Designing and optimizing databases for performance and scalability.',
-    tags: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase']
+    tags: ['PostgreSQL', 'MySQL','SQLight']
   },
   {
-    title: 'Mobile Development',
-    icon: FaMobileAlt,
-    description: 'Building cross-platform mobile applications with modern tools.',
-    tags: ['React Native', 'Flutter', 'Ionic', 'Swift']
+    title: 'Frontend Development',
+    icon: FaReact,
+    description: 'Building responsive and interactive user interfaces with modern frameworks.',
+    tags: ['React', 'JavaScript']
   },
   {
     title: 'Cloud & DevOps',
@@ -71,8 +77,8 @@ export const skills = [
   {
     title: 'Tools & Technologies',
     icon: FaTools,
-    description: 'Essential tools and technologies I use in my development workflow.',
-    tags: ['Git & GitHub', 'Webpack', 'Figma', 'Jest']
+    description: 'Essential tools and technologies I use in my workflow.',
+    tags: ['Git & GitHub', 'Linux']
   }
 ];
 
