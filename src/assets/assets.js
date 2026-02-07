@@ -1,12 +1,13 @@
-import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaMobileAlt, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot, FaDna, FaBrain } from 'react-icons/fa';
+import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot, FaDna, FaBrain, FaGithub, FaLinkedin, FaEnvelope, FaMapMarkedAlt, FaNewspaper } from 'react-icons/fa';
 
-import profileImg from '../assets/profile.avif';
-import projectImg1 from '../assets/project1.avif';
+import profileImg from '../assets/profile.jpeg';
+import projectImg1 from '../assets/bau_vth.png';
 import projectImg2 from '../assets/project2.avif';
 import projectImg3 from '../assets/project3.avif';
 import projectImg4 from '../assets/project4.avif';
 import projectImg5 from '../assets/project5.avif';
 import projectImg6 from '../assets/project6.avif';
+
 
 
 export const assets = {
@@ -86,85 +87,123 @@ export const skills = [
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured online store with shopping cart, user authentication, and payment processing.",
+    title: "BAU VTH",
+    description: "Developed a full-stack web application using with Django with tailwind as the frontend.",
     image: projectImg1,
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    icons: [FaReact, FaNodeJs, FaDatabase , FaStripe],
-    demo: "#",
-    code: "#",
+    tech: ["Python","Django", "tailwindcss", "SQL"],
+    demo: "https://tamim6820.pythonanywhere.com/",
+    code: "https://github.com/t-fahim/bau-vth",
   },
   {
-    title: "Task Management App",
+    title: "Blog site",
     description: "A productivity application with drag-and-drop functionality and real-time updates.",
     image: projectImg2,
-    tech: ["Vue.js", "Firebase", "Tailwind CSS", "WebSockets"],
-    icons: [FaVuejs, FaFire, FaCloud , FaDatabase],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "Fitness Tracker",
-    description: "A mobile app for tracking workouts, nutrition, and health metrics.",
-    image: projectImg3,
-    tech: ["React Native", "GraphQL", "MySQL", "Chart.js"],
-    icons: [FaReact, FaDatabase],
-    demo: "#",
-    code: "#",
+    tech: ["Python","Django", "Bootstrap", "SQL"],
+    demo: "https://tfahim.pythonanywhere.com/",
+    code: "https://github.com/t-fahim/my-blog",
   },
   {
     title: "Portfolio Website",
     description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
     image: projectImg4,
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion", "Markdown"],
-    icons: [FaReact, FaCloud],
+    tech: ["React", "Tailwind CSS", "Framer Motion",],
     demo: "#",
     code: "#",
   },
   {
-    title: "Chat App",
-    description: "A real-time chat application with group messaging, emojis, and file sharing.",
+    title: "RBGI",
+    description: "Developed a full-stack web application using with PHP with tailwind as the frontend",
     image: projectImg5,
-    tech: ["Socket.IO", "React", "Node.js", "MongoDB"],
-    icons: [FaReact, FaNodeJs, FaDatabase ],
+    tech: ["PHP", "tailwindcss", "Python", "MySql"],
     demo: "#",
     code: "#",
   },
-  {
-    title: "AI Image Generator",
-    description: "Generate images using AI prompts powered by OpenAI's DALL·E model and Cloudinary.",
-    image: projectImg6,
-    tech: ["React", "OpenAI API", "Cloudinary", "Tailwind CSS"],
-    icons: [FaRobot, FaReact, FaCloud],
-    demo: "#",
-    code: "#",
-  }
 ];
 
 
 export const workData = [
   {
-    role: "Senior Frontend Developer",
-    company: "TechCorp Inc.",
-    duration: "2020 - Present",
+    role: "Campus Ambassador",
+    company: "NonAcademy",
+    duration: "March 2025 – Present",
     description:
-      "Leading frontend development for enterprise clients, implementing modern frameworks, and mentoring junior developers.",
-    color: "purple"
+      "Promote NonAcademy programs on campus.\nActed as a liaison between students and the organization, providing feedback and insights.",
   },
   {
-    role: "Web Developer",
-    company: "Digital Solutions LLC",
-    duration: "2018 - 2020",
+    role: "Organizing Secretary",
+    company: "BADHAN, Ashraful Haque Hall Unit",
+    duration: "January 2024 – January 2025",
     description:
-      "Developed and maintained web applications for various clients, focusing on responsive design and performance optimization.kjhkdfl lkkljhdf kkajsdfh kihdfgiuajhg iourgjh iereufoier pioiuerhg oieweruwh  eeiruh ieuergh iweu",
-    color: "pink"
+      " Collected blood donations from students and coordinated supply to underprivileged patients.\nPrepared monthly and event-specific reports documenting donations, distribution, and activities.\nMaintained accurate records to ensure transparency and support organizational planning.",
   },
   {
-    role: "Junior Developer",
-    company: "StartUp Ventures",
-    duration: "2016 - 2018",
+    role: "Volunteer",
+    company: "Green Voice, Bangladesh Agricultural University Unit",
+    duration: "June 2023 – June 2023",
     description:
-      "Started my career building basic websites and gradually took on more complex projects as I expanded my skill set.",
-    color: "blue"
+      "Collaborated with a team to execute large-scale environmental awareness programs on campus.\nCoordinated logistics, volunteers, and participants to ensure smooth execution of events.",
   }
 ];
+
+export const education = [
+  {
+    institution : 'Bangladesh Agricultural University',
+    duration : 'November 2022 – Present',
+    degree : 'Bachelor of Science in Bioinformatics Engineering',
+    address : 'Mymensingh - 2202, Bangladesh',
+    description : "",
+  },
+  {
+    institution : 'RAJUK Uttara Model College',
+    duration : 'June 2019 – December 2021',
+    degree : 'HSC, Science',
+    address : 'Uttara, Dhaka',
+    description : '',
+  },
+  {
+    institution : 'Kashiani G.C. Pilot High School',
+    duration : 'January 2017 – March 2019',
+    degree : 'SSC, Science',
+    address : 'Kashiani, Gopalganj',
+    description : '',
+  },
+];
+
+export const socialLinks = [
+    {
+      icon: FaGithub,
+      name: 'GitHub',
+      url: 'https://github.com/t-fahim/', 
+      color: 'hover:bg-purple'
+    },
+    {
+      icon: FaLinkedin,
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/tamim-fahim/', 
+      color: 'hover:bg-purple'
+    },
+  ];
+
+export const contactInfo = [
+    {
+      icon: FaEnvelope,
+      title: 'Email',
+      value: 't.a.fahim@outlook.com', 
+      link: 'mailto:t.a.fahim@outlook.com', 
+      description: 'Send me an email anytime'
+    },
+    {
+      icon: FaNewspaper,
+      title: 'Blog',
+      value: null, 
+      link: null, 
+      description: 'Read my latest blog posts'
+    },
+    {
+      icon: FaMapMarkedAlt,
+      title: 'Location',
+      value: 'Mymensingh, Bangladesh', 
+      link: null,
+      description: 'Available for remote work'
+    }
+  ];

@@ -12,21 +12,19 @@ const Work = () => {
         viewport={{once: true}}
         id='exprience'
         className='py-20 bg-dark-100'>
+            <h2 className='text-3xl font-bold text-center mb-4'>Work
+                <span className='text-purple'> Exprience</span>
+            </h2>
+            <p className='text-gray-400 text-center max-w-2xl mx-auto mb-12'>
+                My professional journey so far.
+            </p>
             <motion.div 
                 initial={{opacity:0, y:50}}
                 whileInView={{opacity:1, y:0}}
                 transition={{duration: 0.9, ease: 'easeOut'}}
                 viewport={{once: false, amount:0.1}}
                 className='container mx-auto px-6'>
-                            
-                    <h2 className='text-3xl font-bold text-center mb-4'>Work
-                        <span className='text-purple'> Exprience</span>
-                    </h2>
-                    <p className='text-gray-400 text-center max-w-2xl mx-auto mb-12'>
-                        My professional journey so far.
-                    </p>
-        
-                    <div className='max-w-3xl mx-auto'>
+                    <div className='max-w-4xl mx-auto'>
                         <div className='space-y-12'>
                             {workData.map((data, index) => (
                                 <div key={index} className="relative pl-12 cursor-pointer hover:-translate-y-2 transition-all duration-300">
@@ -40,12 +38,12 @@ const Work = () => {
                                     <div className="bg-dark-300 rounded-2xl p-6">
                                         <div className="flex justify-between items-start mb-2 gap-4">
                                             <h3 className="text-xl font-semibold">{data.role}</h3>
-                                            <span className="px-3 py-1 bg-purple/20 text-purple rounded-full text-xs md:text-sm">
+                                            <span className="px-3 py-1 bg-purple/20 rounded-full text-xs md:text-sm">
                                                 {data.duration}
                                             </span>
                                         </div>
                                         <p className="text-gray-400 mb-2">{data.company}</p>
-                                        <p className="text-gray-300 leading-relaxed">{data.description}</p>
+                                        <p className="text-gray-300 leading-relaxed whitespace-pre-line">{data.description}</p>
                                     </div>
                                 </div>
                             ))}

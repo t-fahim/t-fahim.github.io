@@ -13,20 +13,18 @@ const Skills = () => {
         viewport={{once: true}}
         id='skill'
         className='py-20 bg-dark-100'>
+            <h2 className='text-3xl font-bold text-center mb-4'>My
+                <span className='text-purple'> Skills</span>
+            </h2>
+            <p className='text-gray-400 text-center max-w-2xl mx-auto mb-12'>
+                Technologies I work with to bring ideas to life.
+            </p>
             <motion.div 
                 initial={{opacity:0, y:50}}
                 whileInView={{opacity:1, y:0}}
                 transition={{duration: 0.9, ease: 'easeOut'}}
                 viewport={{once: false, amount:0.1}}
                 className='container mx-auto px-6'>
-
-                <h2 className='text-3xl font-bold text-center mb-4'>My
-                    <span className='text-purple'> Skills</span>
-                </h2>
-                <p className='text-gray-400 text-center max-w-2xl mx-auto mb-12'>
-                    Technologies I work with to bring ideas to life.
-                </p>
-
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mx-auto'>
                     {
                         skills.map((skill, index)=>(

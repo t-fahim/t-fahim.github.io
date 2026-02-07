@@ -43,8 +43,8 @@ const Hero = () => {
 
                 {/* right side image */}
                 <div className='hidden xl:w-1/2 xl:flex justify-center'>
-                    <div className='relative w-64 h-64 md:w-80 md:h-80'>
-                        <div className='absolute inset-0 rounded-full bg-linear-to-r from-purple to-pink opacity-70'>
+                    <div className='relative w-140 h-120'>
+                        <div className='absolute inset-0 rounded-2xl bg-linear-to-r from-purple to-pink opacity-70'>
                             <motion.img 
                             animate = {{y:[0,-20, 0]}}
                             transition={{
@@ -53,7 +53,7 @@ const Hero = () => {
                                 repeatType:'loop',
                                 ease:'easeInOut'
                             }}
-                            className='relative rounded-full w-64 h-64 md:w-80 md:h-80 object-cover z-10 animate-float'
+                            className='relative rounded-2xl w-140 h-120 object-cover z-10 animate-float'
                             src={assets.profileImg} alt='profile image' />
                         </div>
                     </div>
