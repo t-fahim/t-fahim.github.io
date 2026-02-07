@@ -5,6 +5,11 @@ import { assets } from '../assets/assets'
 
 const Hero = () => {
   return (
+    const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+    }
     <motion.div 
         initial={{opacity:0, y:50}}
         whileInView={{opacity:1, y:0}}
@@ -32,12 +37,12 @@ const Hero = () => {
                     </p>
 
                     <div className='mt-10 flex gap-4'>
-                        <a href='#projects' className='bg-purple px-8 py-3 rounded-full font-bold hover:bg-purple-700 transition duration-300'>
+                        <button onClick={() => scrollToSection('projects')} className='bg-purple px-8 py-3 rounded-full font-bold hover:bg-purple-700 transition duration-300'>
                             View Projects
-                        </a>
-                        <a href='#contact' className='border border-purple px-8 py-3 rounded-full font-bold hover:bg-purple/20 transition duration-300'>
+                        </button>
+                        <button onClick={() => scrollToSection('contact')} className='border border-purple px-8 py-3 rounded-full font-bold hover:bg-purple/20 transition duration-300'>
                             Contact Me
-                        </a>
+                        </button>
                     </div>
                 </div>
 

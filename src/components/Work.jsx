@@ -10,7 +10,7 @@ const Work = () => {
         whileInView={{opacity:1, y:0}}
         transition={{duration: 0.6, ease: 'easeOut'}}
         viewport={{once: true}}
-        id='exprience'
+        id='experience'
         className='py-20 bg-dark-100'>
             <h2 className='text-3xl font-bold text-center mb-4'>Work
                 <span className='text-purple'> Exprience</span>
