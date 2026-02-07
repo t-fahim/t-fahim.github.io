@@ -4,12 +4,13 @@ import { motion } from 'framer-motion'
 import { assets } from '../assets/assets'
 
 const Hero = () => {
-  return (
     const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
     }
+    };
+  return (
     <motion.div 
         initial={{opacity:0, y:50}}
         whileInView={{opacity:1, y:0}}

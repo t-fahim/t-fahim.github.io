@@ -9,7 +9,7 @@ const Navbar = () => {
     if (element) {
         element.scrollIntoView({ behavior: 'smooth' });
     }
-};
+    };
   return (
     <nav className='fixed w-full z-50 bg-dark-100/90 backdrop-blue-sm py-2 px-8 shadow-md'>
         <div className='container mx-auto flex justify-between items-center'>
