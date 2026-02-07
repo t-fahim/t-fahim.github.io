@@ -21,40 +21,40 @@ const Navbar = () => {
             </div>
             <div className='hidden md:flex space-x-10'>
                 {/* home  */}
-                <button onClick={() => scrollToSection('about')} className='relative text-white/80 transition duration-300 hover:text-purple group'>
+                <button onClick={() => scrollToSection('home')} className='relative text-white/80 transition duration-300 hover:text-purple group'>
                     <span>Home</span>
                     <span className='absolute left-0 bottom-0 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
                 </button>
 
                 {/* about  */}
-                <a href="#about" className='relative text-white/80 transition duration-300 hover:text-purple group'>
+                <button onClick={() => scrollToSection('about')} className='relative text-white/80 transition duration-300 hover:text-purple group'>
                     <span>About</span>
                     <span className='absolute left-0 bottom-0 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
-                </a>
+                </button>
 
                 {/* skill  */}
-                <a href="#skill" className='relative text-white/80 transition duration-300 hover:text-purple group'>
+                <button onClick={() => scrollToSection('skill')} className='relative text-white/80 transition duration-300 hover:text-purple group'>
                     <span>Skill</span>
                     <span className='absolute left-0 bottom-0 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
-                </a>
+                </button>
 
                 {/* projects */}
-                <a href="#projects" className='relative text-white/80 transition duration-300 hover:text-purple group'>
+                <button onClick={() => scrollToSection('projects')} className='relative text-white/80 transition duration-300 hover:text-purple group'>
                     <span>Projects</span>
                     <span className='absolute left-0 bottom-0 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
-                </a>
+                </button>
 
                 {/* experience */}
-                <a href="#exprience" className='relative text-white/80 transition duration-300 hover:text-purple group'>
+                <button onClick={() => scrollToSection('experience')} className='relative text-white/80 transition duration-300 hover:text-purple group'>
                     <span>Exprience</span>
                     <span className='absolute left-0 bottom-0 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
-                </a>
+                </button>
 
                 {/* contact  */}
-                <a href="#contact" className='relative text-white/80 transition duration-300 hover:text-purple group'>
+                <button onClick={() => scrollToSection('contact')} className='relative text-white/80 transition duration-300 hover:text-purple group'>
                     <span>Contact</span>
                     <span className='absolute left-0 bottom-0 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
-                </a>
+                </button>
             </div>
 
             {/* moble nabbar view*/}
