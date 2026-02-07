@@ -9,11 +9,17 @@ const Skills = () => {
     <motion.div
         initial={{opacity:0, y:50}}
         whileInView={{opacity:1, y:0}}
-        transition={{duration: 1, ease: 'easeOut'}}
-        viewport={{once: false, amount:0.2}}
-        id='skills'
+        transition={{duration: 0.6, ease: 'easeOut'}}
+        viewport={{once: true}}
+        id='skill'
         className='py-20 bg-dark-100'>
-            <div className='container mx-auto px-6'>
+            <motion.div 
+                initial={{opacity:0, y:50}}
+                whileInView={{opacity:1, y:0}}
+                transition={{duration: 0.9, ease: 'easeOut'}}
+                viewport={{once: false, amount:0.2}}
+                className='container mx-auto px-6'>
+
                 <h2 className='text-3xl font-bold text-center mb-4'>My
                     <span className='text-purple'> Skills</span>
                 </h2>
@@ -27,7 +33,7 @@ const Skills = () => {
                             <div key={index} className='bg-dark-300 rounded-2xl p-6 hover:-translate-y-2 transition duration-300 cursor-pointer'>
                                 <div className='flex items-center mb-4'>
                                     <skill.icon className='w-12 h-12 text-purple mr-6'/>
-                                    <h3 className='text-xl font-semibold '>
+                                    <h3 className='text-xl font-semibold'>
                                         {skill.title}
                                     </h3>
                                 </div>
@@ -43,7 +49,7 @@ const Skills = () => {
                         ))
                     }
                 </div>
-            </div>
+            </motion.div>
 
     </motion.div>
   )

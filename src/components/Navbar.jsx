@@ -5,7 +5,7 @@ import { FaXmark, FaBars } from 'react-icons/fa6'
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false)
   return (
-    <nav className='fixed w-full z-50 bg-dark-100/90 backdrop-blue-sm py-4 px-8 shadow-lg'>
+    <nav className='fixed w-full z-50 bg-dark-100/90 backdrop-blue-sm py-2 px-8 shadow-md'>
         <div className='container mx-auto flex justify-between items-center'>
             <div>
                 <a href="#" className='text-3xl font-bold text-white'>
