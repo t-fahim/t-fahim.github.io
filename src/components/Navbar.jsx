@@ -4,6 +4,12 @@ import { FaXmark, FaBars } from 'react-icons/fa6'
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false)
+    const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+    }
+};
   return (
     <nav className='fixed w-full z-50 bg-dark-100/90 backdrop-blue-sm py-2 px-8 shadow-md'>
         <div className='container mx-auto flex justify-between items-center'>
@@ -15,10 +21,10 @@ const Navbar = () => {
             </div>
             <div className='hidden md:flex space-x-10'>
                 {/* home  */}
-                <a href="#home" className='relative text-white/80 transition duration-300 hover:text-purple group'>
+                <button onClick={() => scrollToSection('about')} className='relative text-white/80 transition duration-300 hover:text-purple group'>
                     <span>Home</span>
                     <span className='absolute left-0 bottom-0 w-0 h-0.5 bg-purple transition-all duration-300 group-hover:w-full'></span>
-                </a>
+                </button>
 
                 {/* about  */}
                 <a href="#about" className='relative text-white/80 transition duration-300 hover:text-purple group'>
