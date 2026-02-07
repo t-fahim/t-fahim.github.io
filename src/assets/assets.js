@@ -18,13 +18,13 @@ export const aboutInfo = [
     {
       icon: FaLightbulb,
       title: 'Innovative',
-      description: 'I love creating unique solutions to complex problems with cutting-edge technologies.',
+      description: 'I love creating solutions to complex problems with cutting-edge technologies.',
       color: 'text-purple'
     },
     {
       icon: FaPaintBrush,
       title: 'Design Oriented',
-      description: 'Beautiful design and user experience are at the heart of everything I create.',
+      description: 'User experience and beautiful design are at the heart of everything I create.',
       color: 'text-pink'
     },
     {
