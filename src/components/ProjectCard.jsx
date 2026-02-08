@@ -5,7 +5,7 @@ const ProjectCard = ({title, description, image, tech, demo, code}) => {
   return (
     <div className='flex flex-col bg-dark-100 rounded-2xl overflow-hidden hover:-translate-y-2 transition duration-300 cursor-pointer'>
         {/* <h3 className='text-xl font-semibold m-2 pl-4 text-purple'>{title}</h3> */}
-        <img src={image} alt={title} className='w-full h-auto object-contain bg-dark-100 pt-4'/>
+        <img src={image} alt={title} className='w-full h-60 object-contain bg-dark-100'/>
         <div className='flex-1 flex flex-col p-6'>
             <h3 className='text-xl font-semibold mb-2'>{title}</h3>
             <p className='text-gray-300 mb-4'>{description}</p>
