@@ -45,7 +45,7 @@ Throughout the development process, I encountered and overcame several challenge
 
 ---
 
-## 📸 Screenshots of Visualization
+## Screenshots of Visualization
 
 ### Homepage - Hero Section
 
@@ -96,7 +96,7 @@ Throughout the development process, I encountered and overcame several challenge
 
 ---
 
-## 🛠️ Technologies
+## Technologies
 
 This portfolio was built using modern web development technologies:
 
@@ -128,7 +128,7 @@ This portfolio was built using modern web development technologies:
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 ### Prerequisites
 Before you begin, ensure you have the following installed:
@@ -213,7 +213,7 @@ npm run deploy
 
 ---
 
-## 📌 Status
+## Status
 
 **Current Status:** Complete ✅
 
