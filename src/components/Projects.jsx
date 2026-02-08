@@ -26,7 +26,7 @@ const Projects = () => {
                 transition={{duration: 0.9, ease: 'easeOut'}}
                 viewport={{once: false, amount:0.1}}
                 className='container mx-auto px-6'>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto'>
                         {
                             projects.map((project, index)=>(
                                 <ProjectCard key={index} {...project}/>
