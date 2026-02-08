@@ -2,10 +2,6 @@
 
 @import "tailwindcss";
 
-*{
-    font-family: Saira, sans-serif;
-}
-
 @theme {
   --color-dark-100: #1a1a1a;
   --color-dark-200: #1f1f1f;
@@ -16,6 +12,13 @@
   --color-blue: #3B82F6;
 }
 
+*{
+    font-family: Saira, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
 
 .typewriter {
   overflow: hidden;

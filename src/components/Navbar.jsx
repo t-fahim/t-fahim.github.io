@@ -7,9 +7,16 @@ const Navbar = () => {
     const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+        const offset = 60; // Adjust this to match your navbar height
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+        });
     }
-    };
+};
   return (
     <nav className='fixed w-full z-50 bg-dark-100/90 backdrop-blue-sm py-2 px-8 shadow-md'>
         <div className='container mx-auto flex justify-between items-center'>
@@ -72,34 +79,46 @@ const Navbar = () => {
             showMenu && (
                 <div className='md:hidden mt-4 bg-dark-300 h-screen rounded-lg p-4 flex flex-col space-y-4 text-center justify-center'>
                     {/* home  */}
-                    <a onClick={() => setShowMenu(!showMenu)} href="#home" className='relative text-white/80 transition duration-300 hover:text-purple group'>
-                        <span>Home</span>
-                    </a>
+                    <button onClick={() => {
+                        scrollToSection('home');
+                        setShowMenu(false); // Closes menu after clicking
+                    }} 
+                    className='text-white/80 hover:text-purple text-xl py-2'>Home</button>
 
                     {/* about  */}
-                    <a onClick={() => setShowMenu(!showMenu)} href="#about" className='relative text-white/80 transition duration-300 hover:text-purple group'>
-                        <span>About</span>
-                    </a>
+                    <button onClick={() => {
+                        scrollToSection('about');
+                        setShowMenu(false); // Closes menu after clicking
+                    }} 
+                    className='text-white/80 hover:text-purple text-xl py-2'>About</button>
 
                     {/* skill  */}
-                    <a onClick={() => setShowMenu(!showMenu)} href="#skill" className='relative text-white/80 transition duration-300 hover:text-purple group'>
-                        <span>Skill</span>
-                    </a>
+                    <button onClick={() => {
+                        scrollToSection('skill');
+                        setShowMenu(false); // Closes menu after clicking
+                    }} 
+                    className='text-white/80 hover:text-purple text-xl py-2'>Skill</button>
 
                     {/* projects */}
-                    <a onClick={() => setShowMenu(!showMenu)} href="#projects" className='relative text-white/80 transition duration-300 hover:text-purple group'>
-                        <span>Projects</span>
-                    </a>
+                    <button onClick={() => {
+                        scrollToSection('projects');
+                        setShowMenu(false); // Closes menu after clicking
+                    }} 
+                    className='text-white/80 hover:text-purple text-xl py-2'>Projects</button>
 
                     {/* experience */}
-                    <a onClick={() => setShowMenu(!showMenu)} href="#exprience" className='relative text-white/80 transition duration-300 hover:text-purple group'>
-                        <span>Exprience</span>
-                    </a>
+                    <button onClick={() => {
+                        scrollToSection('experience');
+                        setShowMenu(false); // Closes menu after clicking
+                    }} 
+                    className='text-white/80 hover:text-purple text-xl py-2'>Experience</button>
 
                     {/* contact  */}
-                    <a onClick={() => setShowMenu(!showMenu)} href="#contact" className='relative text-white/80 transition duration-300 hover:text-purple group'>
-                        <span>Contact</span>
-                    </a>
+                    <button onClick={() => {
+                        scrollToSection('contact');
+                        setShowMenu(false); // Closes menu after clicking
+                    }} 
+                    className='text-white/80 hover:text-purple text-xl py-2'>Contact</button>
                 </div>
             )
         }

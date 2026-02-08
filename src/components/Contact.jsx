@@ -24,7 +24,7 @@ const Contact = () => {
             {/* Contact Information Cards */}
             <div className='grid grid-cols-1 md:grid-cols-3 gap-8 mb-12'>
               {contactInfo.map((info, index) => (
-                <div key={index} className='bg-dark-300 rounded-2xl p-6 text-center hover:bg-dark-400 transition duration-300 transform hover:-translate-y-2'>
+                <div key={index} className='bg-dark-300 rounded-2xl p-6 text-center hover:bg-dark-400 transition duration-300 transform'>
                   {/* Icon */}
                   <div className='bg-purple/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4'>
                     <info.icon className='w-8 h-8 text-purple' />

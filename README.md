@@ -5,7 +5,7 @@ Built with a modern tech stack, it serves as both a resume and a live demo of my
 
 ## 🌐 Live Demo
 
-🔗 [Visit My Portfolio](https://tamimcodes.github.io)
+🔗 [Visit My Portfolio](https://t-fahim.github.io/)
 
 ## 📸 Preview
 

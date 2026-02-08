@@ -2,8 +2,8 @@ import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaTools, FaNodeJs
 
 import profileImg from '../assets/profile.jpeg';
 import projectImg1 from '../assets/bau_vth.png';
-import projectImg2 from '../assets/project2.avif';
-import projectImg3 from '../assets/project3.avif';
+import projectImg2 from '../assets/blogsite_img.jpg';
+import projectImg3 from '../assets/portfolio_img.jpg';
 import projectImg4 from '../assets/project4.avif';
 import projectImg5 from '../assets/project5.avif';
 import projectImg6 from '../assets/project6.avif';
@@ -105,18 +105,18 @@ export const projects = [
   {
     title: "Portfolio Website",
     description: "A personal portfolio to showcase projects, skills, and blogs with dark/light mode support.",
-    image: projectImg4,
+    image: projectImg3,
     tech: ["React", "Tailwind CSS", "Framer Motion",],
-    demo: "#",
-    code: "#",
+    demo: "https://t-fahim.github.io/",
+    code: "https://github.com/t-fahim/t-fahim.github.io",
   },
   {
     title: "RBGI",
     description: "Developed a full-stack web application using with PHP with tailwind as the frontend",
-    image: projectImg5,
+    image: projectImg4,
     tech: ["PHP", "tailwindcss", "Python", "MySql"],
     demo: "#",
-    code: "#",
+    code: "https://github.com/t-fahim/rbgi",
   },
 ];
 

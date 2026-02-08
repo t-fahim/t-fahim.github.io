@@ -7,9 +7,16 @@ const Hero = () => {
     const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+        const offset = 60; // Adjust this to match your navbar height
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+        });
     }
-    };
+};
   return (
     <motion.div 
         initial={{opacity:0, y:50}}
