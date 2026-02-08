@@ -3,9 +3,9 @@ import React from 'react'
 
 const ProjectCard = ({title, description, image, tech, demo, code}) => {
   return (
-    <div className='flex flex-col bg-dark-100 rounded-2xl overflow-hidden hover:-translate-y-2 transition duration-300 cursor-pointer'>
+    <div className='flex flex-col bg-dark-100 rounded-xl overflow-hidden hover:-translate-y-2 transition duration-300 cursor-pointer'>
         {/* <h3 className='text-xl font-semibold m-2 pl-4 text-purple'>{title}</h3> */}
-        <img src={image} alt={title} className='w-full h-60 object-contain bg-dark-100'/>
+        <img src={image} alt={title} className='w-full h-auto object-contain bg-dark-100 p-1 rounded-xl'/>
         <div className='flex-1 flex flex-col p-6'>
             <h3 className='text-xl font-semibold mb-2'>{title}</h3>
             <p className='text-gray-300 mb-4'>{description}</p>
