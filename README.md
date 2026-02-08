@@ -242,7 +242,7 @@ npm run deploy
 ## Credits
 
 ### Developer
-- **[MD. TAMIM AHMED FHAIM]** - Developer & Designer
+- **MD. TAMIM AHMED FHAIM** - Developer & Bioinformatician
 
 ### Tools & Assets
 - [React Icons](https://react-icons.github.io/react-icons/) - Icon library
