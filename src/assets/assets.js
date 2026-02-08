@@ -1,4 +1,4 @@
-import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaTools, FaNodeJs, FaStripe, FaVuejs, FaFire, FaDatabase, FaCloud, FaRobot, FaDna, FaBrain, FaGithub, FaLinkedin, FaEnvelope, FaMapMarkedAlt, FaNewspaper } from 'react-icons/fa';
+import { FaLightbulb, FaPaintBrush, FaCode, FaReact, FaServer, FaTools, FaDatabase, FaCloud, FaDna, FaBrain, FaGithub, FaLinkedin, FaEnvelope, FaMapMarkedAlt, FaNewspaper } from 'react-icons/fa';
 
 import profileImg from '../assets/profile.jpeg';
 import projectImg1 from '../assets/bau_vth.png';
