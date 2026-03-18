@@ -33,7 +33,7 @@ const Hero = () => {
                     </h1>
 
                     <h2 className='text-2xl md:text-4xl font-semibold md:whitespace-nowrap'>
-                        Bioinformatician | Backend Developer
+                        Bioinformatics | Backend Development
                     </h2>
                     <h2 className='text-2xl md:text-4xl font-semibold typewriter mb-6'>
                         AI & ML | FOSS Enthusiast_
