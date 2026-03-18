@@ -67,7 +67,7 @@ export const skills = [
     title: 'Frontend Development',
     icon: FaReact,
     description: 'Building responsive and interactive user interfaces with modern frameworks.',
-    tags: ['React', 'JavaScript']
+    tags: ['React', 'Tailwind CSS', 'JavaScript']
   },
   {
     title: 'Cloud & DevOps',
@@ -122,6 +122,13 @@ export const projects = [
 
 
 export const workData = [
+  {
+    role: "R & D Manager",
+    company: "BAU Research Club",
+    duration: "January 2026 – Present",
+    description:
+      "Oversaw research and development initiatives within the club.\nEncouraged collaboration and innovation among members.",
+  },
   {
     role: "Campus Ambassador",
     company: "NonAcademy",
@@ -179,7 +186,7 @@ export const socialLinks = [
     {
       icon: FaLinkedin,
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/tamim-fahim/', 
+      url: 'https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=tamim-fahim', 
       color: 'hover:bg-purple'
     },
   ];

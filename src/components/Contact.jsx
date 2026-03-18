@@ -77,7 +77,7 @@ const Contact = () => {
                   Open to freelance projects and full-time opportunities
                 </p>
                 <a
-                href='mailto:t.a.fahim@outlook.com' // Replace with your email
+                href='mailto:t.a.fahim@outlook.com' // email
                 className='inline-block bg-purple hover:bg-purple/80 text-white font-medium py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105'>
                 Let's Work Together
                 </a>
