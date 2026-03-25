@@ -16,7 +16,7 @@ import {
   FaNewspaper,
 } from "react-icons/fa";
 
-import profileImg from "../assets/profile.jpeg";
+import profileImg from "../assets/profile.jpg";
 import projectImg1 from "../assets/bau_vth.png";
 import projectImg2 from "../assets/blogsite_img.jpg";
 import projectImg3 from "../assets/portfolio_img.jpg";
