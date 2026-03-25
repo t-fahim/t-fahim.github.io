@@ -38,7 +38,7 @@ html {
   display: inline-block;
   width: 0;
   animation:
-    typing 3s steps(20, end) forwards,
+    typing 6s steps(20, end) forwards,
     blink-caret 0.75s step-end infinite;
 }
 
